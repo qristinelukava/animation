@@ -1,0 +1,79 @@
+.sea {
+	position: relative;
+}
+.ice {
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	transform: translate(-65%.-0%);
+width: 400px;
+}
+
+.image2 {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-30%,-30%);
+	width: 350px;
+	transition-timing-function: linear;
+	animation: move 30s infinite;
+}
+
+@keyframes move  {
+	from  { left: 0px;}
+	to {
+		left: 1900px;
+	}
+} 
+.star {
+	position: absolute;
+	top: 70%;
+	left: 9%;
+	transform: translate(-70%,-9%);
+	width: 100px;
+}
+.star:hover {
+	width: 200px;
+
+}
+
+.dolphin {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	transform: translate(-70%,-75%);
+	width: 250px;
+	transition-timing-function: ease-out;
+	animation: first 6s infinite;
+}
+@keyframes first  {
+	from  { top: 70%;}
+	to {
+		top: 90%;
+	}
+} 
+
+.bird {
+	position: absolute;
+	top: 15%;
+	left: 70%;
+	transform: translate(-15%,-70%);
+	width: 200px;
+	transition-timing-function: ease-out;
+	animation: span 30s infinite;
+
+}
+@keyframes span  {
+	  0%   { left: 0px; top: 0px;}
+  25%  { left: 800px; top: 0px;}
+  50%  { left: 400px; top: 500px;}
+  75%  {; left: 0px; top: 500px;}
+  100% { left: 0px; top: 0px;}
+} 
+.barza {
+	position: absolute;
+	top: 37%;
+	left: 4%;
+	transform: translate(-37%.-5%);
+	width: 200px;
+}
